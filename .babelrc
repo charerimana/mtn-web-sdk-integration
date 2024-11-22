@@ -1,0 +1,15 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "views":  "./src/views/",
+        "actions":  "./src/redux/actions/",
+        "components":  "./src/components/",
+        "utils":  "./src/utils/",
+        "assets":  "./src/assets/"
+      }
+    }]
+  ]
+}

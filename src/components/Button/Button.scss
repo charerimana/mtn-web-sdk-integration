@@ -1,0 +1,23 @@
+@use '../../scss/core/global.scss' as global;
+
+.button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: global.$secondary-color;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: global.$secondary-dark-color;
+  }
+
+  &:disabled {
+    background-color: global.$disabled-color;
+    cursor: not-allowed;
+  }
+}
