@@ -24,7 +24,7 @@ To access the repository, set up your local environment and run the serve, follo
     yarn install
     ```
 
-3. **Start the server**: Start the development:
+4. **Start the server**: Start the development server:
   
 
     ```bash
